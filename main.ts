@@ -4,3 +4,5 @@ const line = 'Week summary: I solved 3 real problems and branched the answer int
 
 fs.mkdirSync('/output', { recursive: true });
 fs.writeFileSync('/output/entry.txt', line + '\n', { encoding: 'utf8' });
+
+// ponytail: single-line entry; widen `line` only if a future sprint asks for tone variants.
